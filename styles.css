@@ -33,22 +33,23 @@ img {
 }
 
 #name {
-    font-size:15px;
+    font-size:1.8rem;
     color:var(--white);
     font-weight:700px;
 }
 
 #location {
     color:var(--primary);
-    font-size:12px;
+    font-size:1rem;
     position:relative;
     bottom:15px;
     font-weight:600px;
+    margin-top:5px;
 }
 
 #description {
     color:var(--white);
-    font-size:14px;
+    font-size:1rem;
     margin-top:10px;
     margin-bottom:10px;
     font-weight:400px;
