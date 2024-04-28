@@ -35,7 +35,7 @@ img {
 #name {
     font-size:1.8rem;
     color:var(--white);
-    font-weight:700px;
+    font-weight:700;
 }
 
 #location {
@@ -43,7 +43,7 @@ img {
     font-size:1rem;
     position:relative;
     bottom:15px;
-    font-weight:600px;
+    font-weight:600;
     margin-top:5px;
 }
 
@@ -52,7 +52,7 @@ img {
     font-size:1rem;
     margin-top:10px;
     margin-bottom:10px;
-    font-weight:400px;
+    font-weight:400;
 }
 
 .button {
@@ -68,7 +68,7 @@ img {
     text-decoration: none;
     transition-property:all;
     transition-duration:2s;
-    font-weight:400px;
+    font-weight:400;
 }
 
 .button:hover {
