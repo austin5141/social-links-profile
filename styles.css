@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+:root {
+    --primary: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkgrey: hsl(0, 0%, 12%);
+    --offblack: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color:var(--offblack);
+}
+
+#name, #location, #description, .button {
+    font-family:"Inter", sans-serif;
+}
+
+#profile {
+    background-color: var(--darkgrey);
+    max-width:30em;
+    margin:150px auto 0px auto;
+    text-align:center;
+    padding-bottom:20px;
+    padding-top:20px;
+    border-radius:15px;
+}
+
+img {
+    max-width:100px;
+    margin-top:30px;
+    border-radius:50%;
+}
+
+#name {
+    font-size:15px;
+    color:var(--white);
+    font-weight:700px;
+}
+
+#location {
+    color:var(--primary);
+    font-size:12px;
+    position:relative;
+    bottom:15px;
+    font-weight:600px;
+}
+
+#description {
+    color:var(--white);
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:400px;
+}
+
+.button {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    max-width:300px;
+    height:50px;
+    background-color:var(--grey);
+    margin: 16px auto 16px auto;
+    border-radius:10px;
+    color:var(--white);
+    text-decoration: none;
+    transition-property:all;
+    transition-duration:2s;
+    font-weight:400px;
+}
+
+.button:hover {
+    background-color:var(--primary);
+    color:var(--darkgrey);
+    transform:rotateY(360deg);
+}
+
+.attribution {
+    color:var(--white);
+}
+
+@media(max-width: 1000px) {
+    #profile {
+        margin-bottom:75px;
+    }
+}
